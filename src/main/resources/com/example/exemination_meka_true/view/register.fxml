@@ -1,0 +1,8 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.exemination_meka_true.controller.RegisterController">
+    <TextField fx:id="usernameField" layoutX="50" layoutY="50" promptText="Enter Username" />
+    <Button text="Register" layoutX="50" layoutY="100" onAction="#register" />
+</AnchorPane>

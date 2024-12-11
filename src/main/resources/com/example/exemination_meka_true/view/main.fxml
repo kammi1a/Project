@@ -1,0 +1,6 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.exemination_meka_true.controller.MainController">
+    <Button text="My Results" layoutX="50" layoutY="50" onAction="#showResults" />
+    <Button text="All Lessons" layoutX="50" layoutY="100" onAction="#showSubjects" />
+</AnchorPane>
