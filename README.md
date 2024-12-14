@@ -16,7 +16,7 @@ A JavaFX-based application for managing examinations, including subjects, tests,
 To get started, clone the project repository to your local machine:
 
 ```bash
-git clone https://github.com/FrauMeka/exam_final.git examination_meka_true
+git clone https://github.com/FrauMeka/exam-.git examination_meka_true
 cd examination_meka_true
 ```
 
