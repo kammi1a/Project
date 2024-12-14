@@ -14,6 +14,8 @@ public class LoginController {
 
     private final UserDAO userDAO = new UserDAO();
 
+    public static User loggedInUser; // Статическое поле для сохранения пользователя
+
     public void login() {
         String username = usernameField.getText();
         if (username.isEmpty()) {
@@ -21,7 +23,8 @@ public class LoginController {
             return;
         }
 
-        if (userDAO.findByUsername(username).isEmpty()) {
+        loggedInUser = userDAO.findByUsername(username).orElse(null);
+        if (loggedInUser == null) {
             showAlert("Error", "User not found");
             return;
         }
@@ -39,6 +42,7 @@ public class LoginController {
             e.printStackTrace();
         }
     }
+
 
     public void redirectToRegister() {
         try {

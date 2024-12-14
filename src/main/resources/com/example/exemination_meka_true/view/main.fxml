@@ -1,6 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
-<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.exemination_meka_true.controller.MainController">
-    <Button text="My Results" layoutX="50" layoutY="50" onAction="#showResults" />
-    <Button text="All Lessons" layoutX="50" layoutY="100" onAction="#showSubjects" />
+
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.exemination_meka_true.controller.MainController"
+            style="-fx-background-color: #d9efd8;">
+    <Label text="MAIN MENU" layoutX="150" layoutY="50"
+           style="-fx-font-size: 18px; -fx-font-family: 'Arial'; -fx-text-fill: #006400;" />
+    <Button text="My Results" layoutX="150" layoutY="100" prefWidth="150"
+            style="-fx-background-color: #006400; -fx-text-fill: white;" onAction="#showResults" />
+    <Button text="All Lessons" layoutX="150" layoutY="150" prefWidth="150"
+            style="-fx-background-color: #006400; -fx-text-fill: white;" onAction="#showSubjects" />
 </AnchorPane>

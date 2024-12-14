@@ -1,5 +1,7 @@
 package com.example.exemination_meka_true;
 
+import com.example.exemination_meka_true.util.DatabaseInitializer;
+import com.example.exemination_meka_true.util.DatabaseSeeder;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -17,6 +19,12 @@ public class HelloApplication extends Application {
     }
 
     public static void main(String[] args) {
+        
+        DatabaseInitializer.initDatabase();
+        DatabaseSeeder.seedDatabase();
+
+        
         launch(args);
+        System.out.println("Application started successfully!");
     }
 }
