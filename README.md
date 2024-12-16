@@ -70,3 +70,6 @@ This diagram details the classes involved, including the attributes, methods, an
 ## Weekly Meeting Documentation:
 https://docs.google.com/document/d/1w29TS5eKYRD4EzwvTzZhzEQ8x14EPmfA2qtczjtMWQM/edit?usp=sharing
 
+## Presentation:
+https://www.canva.com/design/DAGZWRIhf2M/SeMe3KvYbebrmzl7C1ZL6A/edit
+
