@@ -14,8 +14,8 @@ Here is a list of clear and essential functionalities for project:
 **2. User Login**
    - Authenticate users based on stored credentials and grant access to the system.
 
-**3. Subject and Category Selection**
-   - Provide a menu to choose subjects (e.g., Math, Science) and categories (e.g., Algebra, Chemistry).
+**3. Subject choosing**
+   - Provide a menu to choose subjects (e.g., Math, Science).
 
 **4. Test Taking**
    - Allow users to answer questions during exams.
@@ -35,7 +35,8 @@ Here is a list of clear and essential functionalities for project:
 **9. Window Navigation**
    - Smoothly transition between different screens (e.g., Login → Choose subject → Test → Results).
 
-**10. Smth**
+**10. Category Selection**
+   - Provide a menu to choose categories (e.g., Algebra, Chemistry).
    
 
 ## Team Members List:
